@@ -1,6 +1,5 @@
-const profile = {
-    
-};
+const sortByDescendingFriendCount = users => users.toSorted((a, b) => b - a);
+
 
 console.log(
     sortByDescendingFriendCount([
