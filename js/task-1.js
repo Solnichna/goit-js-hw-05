@@ -1,6 +1,5 @@
-function isEnoughCapacity(products, containerSize) {
- 
-}
+const getUserNames = (users) => users.map(user => user.name);
+
 
 console.log(
   getUserNames([
